@@ -1,0 +1,23 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "tyscript learning",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "rollup": "^4.22.5",
+    "rollup-plugin-serve": "^1.1.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "tslib": "^2.7.0"
+  }
+}
